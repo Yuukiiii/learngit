@@ -1,0 +1,10 @@
+2017/12/15 11:03:25 [emerg] 1321#0: "map" directive is not allowed here in /root/learngit/openresty/conf/nginx.conf:15
+2017/12/15 11:06:15 [emerg] 1555#0: unknown directive "location /test " in /root/learngit/openresty/conf/nginx.conf:21
+2017/12/15 11:07:04 [emerg] 1580#0: unknown directive "location /mapgeo " in /root/learngit/openresty/conf/nginx.conf:21
+2017/12/15 11:10:52 [emerg] 1728#0: unknown directive "        #set $orig_foo $foo" in /root/learngit/openresty/conf/nginx.conf:22
+2017/12/15 11:11:55 [emerg] 1760#0: unknown directive "        #set $orig_foo $foo" in /root/learngit/openresty/conf/nginx.conf:22
+2017/12/15 11:15:10 [emerg] 1887#0: invalid number of arguments in "set" directive in /root/learngit/openresty/conf/nginx.conf:25
+2017/12/15 11:15:51 [emerg] 1910#0: unexpected "o" in /root/learngit/openresty/conf/nginx.conf:29
+2017/12/15 11:16:37 [emerg] 1937#0: unexpected "o" in /root/learngit/openresty/conf/nginx.conf:29
+2017/12/15 11:17:12 [emerg] 1954#0: unexpected "o" in /root/learngit/openresty/conf/nginx.conf:29
+2017/12/15 11:18:12 [emerg] 1988#0: unknown directive "ehco" in /root/learngit/openresty/conf/nginx.conf:30

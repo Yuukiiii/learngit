@@ -8,3 +8,17 @@
 2017/12/15 11:16:37 [emerg] 1937#0: unexpected "o" in /root/learngit/openresty/conf/nginx.conf:29
 2017/12/15 11:17:12 [emerg] 1954#0: unexpected "o" in /root/learngit/openresty/conf/nginx.conf:29
 2017/12/15 11:18:12 [emerg] 1988#0: unknown directive "ehco" in /root/learngit/openresty/conf/nginx.conf:30
+2017/12/15 14:33:15 [emerg] 17144#0: unknown directive "auth_request" in /root/learngit/openresty/conf/nginx.conf:58
+2017/12/15 15:30:29 [emerg] 21636#0: unknown directive "auth_request" in /root/learngit/openresty/conf/nginx.conf:58
+2017/12/15 16:38:22 [emerg] 31362#0: "location" directive is not allowed here in /root/learngit/openresty/conf/nginx.conf:81
+2017/12/15 16:39:28 [emerg] 31403#0: location "/foo" is outside location "/mapgeo" in /root/learngit/openresty/conf/nginx.conf:81
+2017/12/15 16:39:43 [emerg] 31420#0: location "/foo" is outside location "/mapgeo" in /root/learngit/openresty/conf/nginx.conf:81
+2017/12/15 16:39:45 [emerg] 31422#0: location "/foo" is outside location "/mapgeo" in /root/learngit/openresty/conf/nginx.conf:81
+2017/12/15 16:40:07 [emerg] 31576#0: invalid variable name in /root/learngit/openresty/conf/nginx.conf:87
+2017/12/15 16:40:42 [error] 31598#0: *1 open() "/root/learngit/openresty/html/favicon.ico" failed (13: Permission denied), client: 101.231.184.90, server: , request: "GET /favicon.ico HTTP/1.1", host: "115.159.148.70", referrer: "http://115.159.148.70/foo"
+2017/12/15 16:43:13 [warn] 31709#0: *1 using uninitialized "foo" variable, client: 101.231.184.90, server: , request: "GET /foo HTTP/1.1", host: "115.159.148.70"
+2017/12/15 16:43:13 [error] 31709#0: *1 open() "/root/learngit/openresty/html/favicon.ico" failed (13: Permission denied), client: 101.231.184.90, server: , request: "GET /favicon.ico HTTP/1.1", host: "115.159.148.70", referrer: "http://115.159.148.70/foo"
+2017/12/15 16:43:14 [warn] 31709#0: *1 using uninitialized "foo" variable, client: 101.231.184.90, server: , request: "GET /foo HTTP/1.1", host: "115.159.148.70"
+2017/12/15 16:43:14 [error] 31709#0: *1 open() "/root/learngit/openresty/html/favicon.ico" failed (13: Permission denied), client: 101.231.184.90, server: , request: "GET /favicon.ico HTTP/1.1", host: "115.159.148.70", referrer: "http://115.159.148.70/foo"
+2017/12/15 16:43:15 [warn] 31709#0: *1 using uninitialized "foo" variable, client: 101.231.184.90, server: , request: "GET /foo HTTP/1.1", host: "115.159.148.70"
+2017/12/15 16:43:15 [error] 31709#0: *1 open() "/root/learngit/openresty/html/favicon.ico" failed (13: Permission denied), client: 101.231.184.90, server: , request: "GET /favicon.ico HTTP/1.1", host: "115.159.148.70", referrer: "http://115.159.148.70/foo"
